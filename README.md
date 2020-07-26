@@ -8,7 +8,7 @@
 
 -------------------
 
-<img src="desktop_v.png" width="800">  
+<img src="images/desktop_v.png" width="800">  
 
 -----------------------
 
