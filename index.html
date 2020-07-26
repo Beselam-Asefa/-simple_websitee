@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        
+            <nav>
+                <a href="#" class="hide_desktop "><img class="menu" src="images/ham.svg" alt="toggle button" id="menu"></a>
+                <ul class="show_desktop hide_mobile" id='nav'>
+                    <li id="exit_icon" class="mobile_exit_btn hide_desktop"><a href="#"> <img src="images/exit.svg" alt="exit icon"></a></li>
+                    <li> <a href="#">home</a></li>
+                    <li> <a href="#">service</a></li>
+                    <li> <a href="#">about</a></li>
+                    <li> <a href="#">contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <img class="server" src="images/mm.PNG" alt="server image" >
+            <h2>This is beselam from metropolia</h2>
+            <p class="subhead"> go beyond your life</p>
+            <img src="images/icons.png" alt="scrol icon " class="scrol_icon  hide_mobile">
+        </section>
+    </div>
+
+    <div class="blue_container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="calander_icon">
+                    <p> my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer </p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="calander_icon">
+                    <p> my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer </p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="calander_icon">
+                    <p> my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer my name is beselam and in this calander am working as a developer  </p>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="gray_container">
+        <div class="container ">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="user testimonialial">
+                        <blockquote>during the transformation of this page am trying my  of this page am trying my best to help during the transformation of this page am trying my best to help </blockquote>
+                        <figcaption>Beselam Asefa</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="user testimonialial">
+                        <blockquote>during the transformation of this the transformation of this page am trying my best to help during the transformation of this page am trying my best to help </blockquote>
+                        <figcaption>Trump Asefa</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="container  button_container">
+        <h1>go beyond</h1>
+        <a href="#" class="cta"> Get Started</a>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_div">
+            <p class="adress"> beselam's company <br>Helsinki</p>
+            <ul class="footer_link">
+                <li>
+                    <a href="#">Term of Service</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>    
+            </div>
+        </div>
+       
+    </footer>
+     <div class="bottom_holder container" >
+      
+        </div>
+    <script>
+    let menu = document.getElementById('menu')
+    let nav = document.getElementById('nav')
+    let exit = document.getElementById('exit_icon')
+    
+    menu.addEventListener('click',function(e) {
+    nav.classList.toggle('hide_mobile')
+    e.preventDefault();
+    });
+
+
+    exit.addEventListener('click',function(e){
+        nav.classList.add('hide_mobile')
+    });
+
+
+    </script>
+
+</body>
+
+</html>
